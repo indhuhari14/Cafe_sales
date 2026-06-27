@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/9027bb84-c16a-4210-a3c9-658f490feb91" />
 Project: Cafe Sales Analysis
 Objective: Analyse cafe sales data to identify top performing products, cities and payment trends
 Data Cleaning (Excel):
