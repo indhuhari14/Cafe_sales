@@ -21,7 +21,7 @@ covering data cleaning, visualization and SQL querying.
   line chart and card visual
 - Created DAX measure for Total Revenue
 - Added interactive slicer to filter by Item
-<img width="400" height="300" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/b625b669-4f7a-4672-9463-f928fa47f080" />
+<img width="450" height="300" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/b625b669-4f7a-4672-9463-f928fa47f080" />
 
 
 ### 3. SQL Analysis (SQLite)
@@ -38,6 +38,6 @@ covering data cleaning, visualization and SQL querying.
 5. Card is the most used payment method at 45%
 
 ## Files in This Repository
-- cafe_sales_queries.sql — All SQL queries
-- Cafe_Sales_Cleaned.xlsx — Cleaned dataset
-- Cafe_Sales_Dashboard.pdf — Power BI dashboard
+- cafe_sales_sql.sql — All SQL queries
+- Cafe_Sales_Cleaned_Data.xlsx — Cleaned dataset
+- Cafe_Sales_Practice.pdf — Power BI dashboard
