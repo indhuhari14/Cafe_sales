@@ -1,16 +1,43 @@
-<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/9027bb84-c16a-4210-a3c9-658f490feb91" />
-Project: Cafe Sales Analysis
-Objective: Analyse cafe sales data to identify top performing products, cities and payment trends
-Data Cleaning (Excel):
+# Café Sales Data Analysis
 
-Fixed 8 types of data quality issues including wrong totals, spelling errors, date inconsistencies and missing values
-Used TRIM(), PROPER(), DATEDIF() functions
+## Project Overview
+End to end data analysis project on café sales data 
+covering data cleaning, visualization and SQL querying.
 
-Key Insights (Power BI):
+## Tools Used
+- Microsoft Excel — Data cleaning
+- Power BI Desktop — Dashboard and visualization
+- SQL (SQLite) — Data querying and analysis
 
-Coffee is the highest revenue product — cafe should prioritise its availability and promotion
-Chennai contributes 24% of total revenue — strongest market
-45% of customers pay by Card — card payment infrastructure is critical
-Tea has high quantity orders but low revenue due to lowest price point (₹60)
+## What I Did
+### 1. Data Cleaning (Excel)
+- Identified and fixed 8 types of data quality issues
+- Fixed wrong totals, spelling errors, date inconsistencies,
+  extra spaces and missing values
+- Used TRIM(), PROPER(), DATEDIF() functions
 
-Tools Used: Microsoft Excel, Power BI Desktop, DAX
+### 2. Power BI Dashboard
+- Built 5 visuals — bar chart, pie chart, donut chart,
+  line chart and card visual
+- Created DAX measure for Total Revenue
+- Added interactive slicer to filter by Item
+<img width="400" height="300" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/b625b669-4f7a-4672-9463-f928fa47f080" />
+
+
+### 3. SQL Analysis (SQLite)
+- Wrote 8 queries covering SELECT, WHERE, 
+  GROUP BY, ORDER BY, SUM, AVG, COUNT, LIMIT
+- Pulled revenue by product and city
+- Identified top performing items and locations
+
+## Key Insights
+1. Coffee is the highest revenue product at ₹2280
+2. Chennai contributes 24% of total revenue
+3. Average transaction value is ₹209
+4. Top 2 cities (Chennai + Mumbai) contribute 44% of revenue
+5. Card is the most used payment method at 45%
+
+## Files in This Repository
+- cafe_sales_queries.sql — All SQL queries
+- Cafe_Sales_Cleaned.xlsx — Cleaned dataset
+- Cafe_Sales_Dashboard.pdf — Power BI dashboard
